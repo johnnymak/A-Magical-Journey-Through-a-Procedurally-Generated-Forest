@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{cc3383ff-0f43-47f1-a73d-2fe1d786b164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{ad8b53ff-7b9b-4bc1-bf61-1b96e8ea700b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{2a9e849d-cbbc-4718-85fa-2c3c0e09fe83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Regular Shader">
+      <UniqueIdentifier>{42ade94f-9ad5-4b0a-9203-65d21a1a864e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Skybox Shader">
+      <UniqueIdentifier>{75421c0c-3ec0-40eb-80b6-c38f4dc53c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{97f9cc65-857b-4bbc-98b2-01c855029288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{8759c79d-6123-46a2-98a6-4ff238807a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\HeightGeneration">
+      <UniqueIdentifier>{da3885fb-27a5-4454-9cec-ecaaab85dcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility\HeightGeneration">
+      <UniqueIdentifier>{70abf4f8-40f5-4e66-b0dc-1fea668e33c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Bush.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="MapleTree.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pine.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Trunk.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PineTree.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationalObject.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexManager.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Biome.h">
+      <Filter>Header Files\Utility\HeightGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Mountains.h">
+      <Filter>Header Files\Utility\HeightGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseGenerator.h">
+      <Filter>Header Files\Utility\HeightGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Header Files\Utility\HeightGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Plains.h">
+      <Filter>Header Files\Utility\HeightGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Firefly.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fragment.shader">
+      <Filter>Shader\Regular Shader</Filter>
+    </None>
+    <None Include="Shaders\vertex.shader">
+      <Filter>Shader\Regular Shader</Filter>
+    </None>
+    <None Include="Shaders\skybox_fragment.shader">
+      <Filter>Shader\Skybox Shader</Filter>
+    </None>
+    <None Include="Shaders\skybox_vertex.shader">
+      <Filter>Shader\Skybox Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bush.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Trunk.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexManager.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Biome.cpp">
+      <Filter>Source Files\Utility\HeightGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Mountains.cpp">
+      <Filter>Source Files\Utility\HeightGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseGenerator.cpp">
+      <Filter>Source Files\Utility\HeightGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Plains.cpp">
+      <Filter>Source Files\Utility\HeightGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
