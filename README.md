@@ -1,15 +1,35 @@
 # README #
 
-### What is this repository for? ###
-Project Repository for Computer Graphics (COMP 371)
+### ABOUT ###
+A Magical Journey Through a Procedurally Generated Forest is a project we have created for our class Comp 371 - Computer Graphics.
+As the name of the project states, the world is procedurally generated on each run. The trees, terrain, and fireflies are randomly generated and placed on the world based on specific parameters such as base height and size.
 
-* ORGANIZING OURSELVES FOR THE PROJECT
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This project was created using OpenGL 3.3 profile core.
 
 
-### Contribution guidelines ###
+### Controls ###
+The project includes a camera which may be used to freely roam the generated terrain, however there are no collision detection for the world objects.
+The terrain does not generate beyond the initial creation but it is a feature that we would like to implement if we had more time.
 
-* Writing tests
-* Code review
+Camera Movement: 
+ * Press 'W' : Move Camera forward
+ * Press 'A' : Move Camera to the left
+ * Press 'S' : Move Camera downward
+ * Press 'D' : Move Camera to the right
 
-### IF YOU HAVE ANY QUESTION ABOUT HOW TO USE GIT, JUST ASK JOHNNY OR ME ###
+ * Press 'SPACE'        : Ascend the camera 
+ * Press 'LEFT CONTROL' : Descend the camera 
+
+ * Press 'Left Shift' : Doubles camera movement speed
+ * Press 'C'          : Slow down camera movement speed by half
+
+
+### CREDITS ###
+This was developed in a team consisting of:
+
+* Johnny Mak    
+* Helen Tam     
+* Kevin Ye      
+* Amal Zemmouri 
+
+(Originally developed on BitBucket, now migrated onto GitHub.)
