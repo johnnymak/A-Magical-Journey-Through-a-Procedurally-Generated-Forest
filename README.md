@@ -2,7 +2,7 @@
 
 ### ABOUT ###
 A Magical Journey Through a Procedurally Generated Forest is a project we have created for our class Comp 371 - Computer Graphics.
-As the name of the project states, the world is procedurally generated on each run. The trees, terrain, and fireflies are randomly generated and placed on the world based on specific parameters such as base height and size.
+As the name of the project states, the world is procedurally generated on each run. The maple/pine trees, bushes, rocks, terrain, clouds, and fireflies are randomly generated and placed on the world based on specific parameters such as base height and size.
 
 This project was created using OpenGL 3.3 profile core.
 
